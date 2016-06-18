@@ -11,6 +11,7 @@
     <!-- Styles -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+    <link href="css/fontello.css" rel="stylesheet">
     <!-- Google Web Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Quattrocento:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
@@ -18,10 +19,13 @@
 </head>
 
 <body>
-    <div id="headwrap">
+    <div id="top"></div>
+    <div class="headwrap">
         <header class="clearfix">
-            <div class="row">
-                <img src="img/sahildua.jpg" class="img-circle text-center" id="picture" alt="Sahil Dua">
+            <div class="container">
+                <div class="row">
+                    <img src="img/sahildua.jpg" class="img-circle text-center" id="picture" alt="Sahil Dua">
+                </div>
             </div>
             <h1 class="text-center">
                 <span>Sahil Dua</span>
@@ -41,9 +45,6 @@
                                 <a href="https://www.github.com/sahildua2305" target="_blank"><img src="img/icons/github.png" alt="GitHub profile link" /></a>
                             </li>
                             <li>
-                                <a href="https://www.twitter.com/sahildua2305" target="_blank"><img src="img/icons/twitter.png" alt="Twitter profile link" /></a>
-                            </li>
-                            <li>
                                 <a href="http://scr.im/sahildua" target="_blank"><img src="img/icons/mail.png" alt="Mail" /></a>
                             </li>
                         </ul>
@@ -52,6 +53,71 @@
             </div>
         </header>
     </div>
+    <div class="scrollback" id="about">
+        <section id="feature">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <article>
+                            <p>I have recently graduated from Netaji Subhas Institute of Technology, New Delhi.</p>
+                            <p>I am a Community Member at DuckDuckHack (Open source community of DuckDuckGo).</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section id="portfolio" class="single-page scrollback">
+        <div class="container">
+            <div class="align"><i class="icon-desktop-circled"></i></div>
+            <h1 id="folio-headline">My Projects</h1>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="mask2">
+                        <a href="https://hackide.herokuapp.com" target="_blank"><img src="img/hackide-screenshot.jpg" alt="HackIDE Screenshot"></a>
+                    </div>
+                    <div class="inside">
+                        <hgroup>
+                            <h2>HackIDE</h2>
+                        </hgroup>
+                        <div class="entry-content">
+                            <p>hackIDE is an online code editor, compiler and interpreter based on Django, powered by <b>HackerEarth API</b>! Go, hack it!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="mask2">
+                        <a href="http://sahildua.com/local-tweet-map/" target="_blank"><img src="img/local-tweet-map.png" alt="Local Tweet Map Screenshot"></a>
+                    </div>
+                    <div class="inside">
+                        <hgroup>
+                            <h2>Local Tweet Map</h2>
+                        </hgroup>
+                        <div class="entry-content">
+                            <p>A web app developed as a part of a development challenge. It helps you to <b>see what people around you are tweeting</b>. Tweets are shown as markers on Google Maps.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="mask2">
+                        <a href="http://sahildua.com/twitter-instant/" target="_blank"><img src="img/twitter-instant.jpg" alt="Twitter Instant Screenshot"></a>
+                    </div>
+                    <div class="inside">
+                        <hgroup>
+                            <h2>Twitter Instant</h2>
+                        </hgroup>
+                        <div class="entry-content">
+                            <p>A web-app developed on Twitter API for performing <b>#hashtag searches instantly</b>, at the speed of thought!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container">
+        <span>Copyrights © <a href="http://sahildua.com" target="_blank">Sahil Dua</a> 2016 | Made with <span id="heart">&hearts;</span> in India </span>
+    </footer>
 </body>
 
 </html>
