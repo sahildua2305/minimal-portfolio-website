@@ -1,6 +1,7 @@
 # minimal-portfolio-website
 A minimal portfolio website for computer science students / software developers
 
+**Demo is available [here](http://sahildua.com/minimal-portfolio-website)**
 
 ##Screenshots
 
