@@ -2,23 +2,13 @@
 * @Author: sahildua2305
 * @Date:   2016-06-18 23:43:03
 * @Last Modified by:   Sahil Dua
-* @Last Modified time: 2016-06-19 01:53:14
+* @Last Modified time: 2016-06-19 14:58:02
 */
 
 body {
     background: #fff;
     color: #312A1E;
     font-size: 100%;
-}
-
-::selection {
-    background: #f0bf00;
-    color: #333;
-}
-
-::-moz-selection {
-    background: #f0bf00;
-    color: #333;
 }
 
 ul,
@@ -36,7 +26,7 @@ h4,
 h5,
 h6 {
     font-weight: normal;
-    font-family: 'Patua One', cursive;
+    font-family: "Patua One", cursive;
 }
 
 
@@ -59,7 +49,7 @@ h6 {
 
 .headwrap h1 {
     color: #FFFFFF;
-    font-family: 'Patua One', cursive;
+    font-family: "Patua One", cursive;
     font-size: 6em;
     font-weight: 100;
     margin: 0 0;
@@ -67,7 +57,7 @@ h6 {
 
 .headwrap h2 {
     color: #FFFFFF;
-    font-family: 'Open Sans', sans serif;
+    font-family: "Open Sans", sans serif;
     font-size: 2em;
     font-weight: normal;
     margin: 0.5em 0;
@@ -78,7 +68,7 @@ h6 {
     color: #f0bf00;
 }
 
-#picture {
+.picture {
     height: 120px;
     width: 120px;
     border-radius: 100%;
@@ -94,12 +84,12 @@ h6 {
     height: 52px;
 }
 
-ul.icon {
+.icon {
     font-size: 54px;
     margin: 0.5em 0 0.5em 0;
 }
 
-ul.icon li {
+.icon li {
     display: inline-block;
     opacity: 1.0;
     -webkit-transition: all 0.3s linear;
@@ -108,12 +98,12 @@ ul.icon li {
     transition: all 0.3s linear;
 }
 
-ul.icon li:hover {
+.icon li:hover {
     opacity: 0.5;
 }
 
-#feature {
-    background: url("../img/yellow.png") repeat 0 0;
+.feature {
+    background: url(../img/yellow.png) repeat 0 0;
     height: auto;
     z-index: 500;
     box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
@@ -121,14 +111,14 @@ ul.icon li:hover {
     -webkit-box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
 }
 
-#feature article {
+.feature article {
     text-align: center;
     margin: 8% auto;
     max-width: 870px;
 }
 
-#feature article p {
-    font-family: 'Patua One', cursive;
+.feature article p {
+    font-family: "Patua One", cursive;
     font-size: 2.2em;
     margin-bottom: 4%;
     line-height: 1.35;
@@ -138,44 +128,44 @@ ul.icon li:hover {
 
 /* About */
 
-section#portfolio {
+.portfolio {
     padding-bottom: 0;
 }
 
-section#portfolio h1 {
+.portfolio h1 {
     font-size: 36px;
     margin-bottom: 1em;
     margin-top: 0.5em;
 }
 
-section#portfolio hgroup h2 {
+.portfolio h2 {
     margin-top: 1em;
     text-align: center;
     text-transform: capitalize;
     font-size: 24px;
 }
 
-section#portfolio hgroup h3 {
+.portfolio h3 {
     margin-top: .35em;
     text-align: center;
-    font-family: 'Patua One', cursive;
+    font-family: "Patua One", cursive;
     color: #aaa;
 }
 
-section#portfolio .entry-content {
+.portfolio .entry-content {
     margin: 1em 0 2.5em;
     font-family: Arial;
     font-size: 20px;
     text-align: center;
 }
 
-section#portfolio .align {
+.portfolio .align {
     text-align: center;
     margin-top: 10px;
     font-size: 6em;
 }
 
-section#portfolio #folio-headline {
+.portfolio #folio-headline {
     text-align: center;
 }
 
@@ -184,8 +174,8 @@ section#portfolio #folio-headline {
 
 .mask2 img {
     margin: 0 auto;
-    width: 180px;
-    height: 180px;
+    width: 50%;
+    height: 20%;
     border-radius: 5%;
     border: 3px solid #000;
     max-width: 80%;
