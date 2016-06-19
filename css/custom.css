@@ -2,7 +2,7 @@
 * @Author: sahildua2305
 * @Date:   2016-06-18 23:43:03
 * @Last Modified by:   Sahil Dua
-* @Last Modified time: 2016-06-19 14:58:02
+* @Last Modified time: 2016-06-19 15:34:01
 */
 
 body {
@@ -175,7 +175,7 @@ h6 {
 .mask2 img {
     margin: 0 auto;
     width: 50%;
-    height: 20%;
+    height: auto;
     border-radius: 5%;
     border: 3px solid #000;
     max-width: 80%;
